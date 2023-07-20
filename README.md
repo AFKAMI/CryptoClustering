@@ -1,5 +1,6 @@
 # CryptoClustering
 
+![crypto](https://github.com/AFKAMI/CryptoClustering/assets/126113162/2b014fc9-a5f5-4c5d-b07d-a08aae2c659f)
 
 
 # Prepare the Data
