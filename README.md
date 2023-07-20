@@ -18,6 +18,7 @@ Create an empty list to store the inertia values.
 Create a for loop to compute the inertia with each possible value of k.
 Create a dictionary with the data to plot the elbow curve.
 Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
+![Elbow_Curve_Original Data](https://github.com/AFKAMI/CryptoClustering/assets/126113162/a3f72821-8903-473d-9c82-966c667a3150)
 
 # Cluster Cryptocurrencies with K-means Using the Original Scaled Data
 Use the following steps to cluster the cryptocurrencies for the best value for k on the original scaled data:
@@ -30,6 +31,7 @@ Create a scatter plot using hvPlot as follows:
 Set the x-axis as "PC1" and the y-axis as "PC2".
 Color the graph points with the labels found using K-means.
 Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
+![Scatter_plot_originalData](https://github.com/AFKAMI/CryptoClustering/assets/126113162/3b64c32f-782f-4d74-b1f6-a5c7d538a6d6)
 
 # Optimize Clusters with Principal Component Analysis
 Using the original scaled DataFrame, perform a PCA and reduce the features to three principal components.
@@ -59,3 +61,4 @@ Create a scatter plot using hvPlot as follows:
 Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d".
 Color the graph points with the labels found using K-means.
 Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
+![Scatter_plot_PCA_Data](https://github.com/AFKAMI/CryptoClustering/assets/126113162/7d5d9873-c4d5-41a3-a3b4-271218e54ce0)
